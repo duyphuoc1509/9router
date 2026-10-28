@@ -25,6 +25,8 @@ services:
     image: ghcr.io/chopratejas/headroom:latest
     container_name: headroom
     restart: always
+    environment:
+      DD_TRACE_ENABLED: "false"
     ports:
       - "127.0.0.1:8787:8787"
 
