@@ -18,6 +18,7 @@ services:
       HOSTNAME: "0.0.0.0"
       NODE_ENV: production
       HEADROOM_URL: http://headroom:8787
+      HEADROOM_EXTERNAL_PROXY: "true"
     depends_on:
       - headroom
 
